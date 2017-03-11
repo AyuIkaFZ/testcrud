@@ -43,6 +43,7 @@ public class Login extends javax.swing.JFrame {
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         txtpass = new javax.swing.JPasswordField();
+        jPanel3 = new javax.swing.JPanel();
 
         jPanel1.setBackground(new java.awt.Color(51, 255, 204));
         jPanel1.setLayout(null);
@@ -93,6 +94,10 @@ public class Login extends javax.swing.JFrame {
         jButton3.setBounds(150, 220, 100, 25);
         getContentPane().add(txtpass);
         txtpass.setBounds(100, 160, 190, 30);
+
+        jPanel3.setBackground(new java.awt.Color(102, 255, 0));
+        getContentPane().add(jPanel3);
+        jPanel3.setBounds(0, 0, 400, 300);
 
         setSize(new java.awt.Dimension(416, 339));
         setLocationRelativeTo(null);
@@ -186,6 +191,7 @@ public class Login extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel3;
     private javax.swing.JTextField txtnama;
     private javax.swing.JPasswordField txtpass;
     // End of variables declaration//GEN-END:variables
